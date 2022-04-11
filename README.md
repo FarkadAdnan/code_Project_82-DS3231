@@ -40,3 +40,11 @@ RTC_DS3231 rtc;
 ![TCXO-Crystal-Oscillator-Compensation](https://user-images.githubusercontent.com/35774039/162673230-30c74f4d-a1cf-4cc3-a64f-f7dda863d3e2.png)
 
 
+# How do I connect my module?
+These modules are I2C devices, so that's easy as pie.
+
+SCL -> SCL (Uno: A5, Mega: 21, Leo*: SCL)
+SDA -> SDA (Uno: A4, Mega: 20, Leo*: SDA)
+VCC -> 5v
+GND -> GND
+![8](https://user-images.githubusercontent.com/35774039/162675068-a4e9b94d-694a-4bb7-aec5-cef4398618bb.JPG)
